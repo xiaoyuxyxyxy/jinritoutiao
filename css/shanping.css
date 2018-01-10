@@ -1,0 +1,135 @@
+.shang {
+    width: 100%;
+    height: 11.66rem;
+    background-color: yellow;
+    position: relative;
+}
+.img1 {
+    width: 100%;
+    height: 11.66rem;
+}
+img {
+    border: 0;
+    display: block;
+}
+.img2 {
+    width: 5.14rem;
+    height: 0.57rem;
+    position: absolute;
+    left: 1.12rem;
+    bottom: 2.1rem;
+}
+.wenzi1 {
+    font-size: .08rem;
+    color: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 1.9rem;
+    bottom: 1.73rem;
+}
+p {
+    display: block;
+}
+.img3 {
+    width: 0.13rem;
+    height: 0.13rem;
+    position: absolute;
+    left: 3.67rem;
+    bottom: 1.41rem;
+}
+.wenzi2 {
+    font-size: .24rem;
+    color: rgba(0, 0, 0, .4);
+    position: absolute;
+    left: 1.58rem;
+    bottom: 0.9rem;
+    font-family: '苹方';
+    font-weight: bold;
+    letter-spacing: .015rem;
+}
+.wenzi3 {
+    font-size: .13rem;
+    letter-spacing: .31rem;
+    color: #d9d9ff;
+    position: absolute;
+    left: 2.4rem;
+    bottom: 0.58rem;
+}
+
+.xia {
+    width: 100%;
+    height: 1.68rem;
+    background-color: #807fff;
+    position: relative;
+}
+.xia ul {
+    width: .96rem;
+    height: .14rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.xia ul li{
+    width: .14rem;
+    height: 100%;
+    background-color: #cbcaff;
+    border-radius: 1rem;
+}
+.xia ul li:nth-child(1) {
+    width: .49rem;
+    height: 100%;
+    background-color: #e6e5ff;
+    border-radius: 1rem;
+}
+.swiper-button-prev{
+    width: 41px!important;
+    height: 69px!important;
+    background: url('../img/icon-slides.png') no-repeat -84px 50%!important;
+    left:234px!important;
+}
+.swiper-button-next{
+    width: 41px!important;
+    height: 69px!important;
+    background: url('../img/icon-slides.png') no-repeat -138px 50%!important;
+}
+.swiper-button-prev:hover{
+    background-position: 0px 50%!important;
+}
+.swiper-button-next:hover{
+    background-position: -42px 50%!important;
+}
+.swiper-pagination{
+    left: auto!important;
+    right: 30px!important;
+    bottom: 20px!important;
+    width: auto!important;
+}
+.swiper-pagination-bullet-active{
+    border: 2px solid rgba(255, 255, 255, 0.3)!important;
+    background:rgba(0,0,0,0.4)!important;
+}
+.swiper-pagination-bullet{
+    border: 2px solid rgba(255,255,255,.7)!important;
+    background:rgba(0,0,0,0.4)!important; 
+}
+.anniu{
+    width: 2.21rem;
+    height: 0.6rem;
+    border: .01rem solid #b0b0b0;
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: .05rem;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>闪屏</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/shanping.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/swiper.min.js"></script>
+</head>
+<body>
+	<div class="banner swiper-container">
+		<div class="banner-img swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="shang">
+					<img src="img/shan-1_03.png" alt=""class="img1">
+					<img src="img/shan-2_03.png" alt=""class="img2">
+					<p class="wenzi1">DINGWEISUISHIGENGXINZUIXINZIXUN</p>
+					<img src="img/shan-3_03.png" alt=""class="img3">
+					<p class="wenzi2">实时定位 让你随时接收最新最美的资讯</p>
+					<p class="wenzi3">TOUTIAO</p>
+				</div>
+				<div class="xia">
+					<!-- <ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					</ul> -->
+				</div>	
+			</div>
+
+			<div class="swiper-slide">
+				<div class="shang">
+					<img src="img/shan-2-1_03.png" alt=""class="img1">
+					<img src="img/shan-2-2_03.png" alt=""class="img2">
+					<p class="wenzi1">FENGFUHAILAINGZIXUNSUISHIGU</p>
+					<img src="img/shan-2-3_03.png" alt=""class="img3">
+					<p class="wenzi2">海量资讯 让你随时与社会接轨不被淘汰</p>
+					<p class="wenzi3">TOUTIAO</p>
+				</div>
+				<div class="xia">
+					<div class="anniu">
+						<a href="index.html">点击进入</a>
+					</div>
+					<!-- <ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					</ul> -->
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-button-prev"></div>
+    	<div class="swiper-button-next"></div>
+		<div class="swiper-pagination"></div>
+
+	</div>
+</body>
+</html>
+<script> 
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 4000,//可选选项，自动滑动
+	effect : 'fade',
+	prevButton:'.swiper-button-prev',
+	nextButton:'.swiper-button-next',
+	pagination : '.swiper-pagination',
+	loop : true,
+})
+</script>
